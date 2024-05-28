@@ -30,11 +30,8 @@ def main():
 
     while True:
 
-        print("Flashy fast rainbow")
-        rainbow(lifx, 0.1)
-
         print("Smooth slow rainbow")
-        rainbow(lifx, 1, smooth=True)
+        rainbow(lifx, 2, smooth=True)
 
     print("Restoring original color to all lights...")
     for light in original_colors:
